@@ -693,6 +693,16 @@ footer {
     margin-top: 30px;
 }
 
+.copyright a {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.copyright a span {
+    color: var(--greencolor);
+}
+
 @media(max-width:1180px) {
     .fix-width {
         max-width: 900px;
